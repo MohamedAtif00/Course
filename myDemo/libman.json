@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap@5.2.2",
+      "destination": "HTMLforBootstrap/bootstrap/"
+    },
+    {
+      "library": "jquery@3.6.1",
+      "destination": "HTMLforBootstrap/jquery/"
+    },
+    {
+      "library": "slick-carousel@1.8.1",
+      "destination": "HTMLforBootstrap/slick-carousel/"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    height: 600px;
+}
+
+
+
+.forheader {
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+}
+.header {
+    background-color: #1E2761;
+}
+
+.header div span:first-child {
+    font-size: 32px;
+    color: red;
+}
+
+.header div span:nth-child(2) {
+    font-size: 32px;
+    color: blue;
+}
+
+.header .loginBtn {
+    width: 100px;
+    height: 40px;
+    padding: 7px;
+    margin-right: 20%;
+    margin-top: 10px;
+}
+
+.modal-content {
+    width: 600px;
+    height: 565px;
+}
+
+.modal-footer:nth-child(2) {
+    width: 100px;
+}
+
+.foraside {
+    height: 100%;
+    margin-top: 10px;
+    background-color: #1e2761;
+}
+
+.aside {
+    /*margin-top:20px;*/
+    border: 1px solid black;
+    border-radius: 8px;
+    min-width: 16%;
+    resize: none;
+    height: 10000px;
+    padding-left: 15px;
+    padding-right:0;
+}
+[class="flex-row justify-content-between mb-3"] {
+    perspective:300px;
+    transition-duration:3s;
+}
+[class="btn btn-outline-light "] {
+    background-color: #7A2048;
+    transition-duration:3s;
+}
+    [class="btn btn-outline-light "]:hover {
+        transform:translateZ(50px);
+        transition-duration:4s;
+        
+    }
+
+    .content {
+        background-color: #1E2761;
+        margin-top: 10px;
+        padding: 30px;
+        border: 1px solid black;
+        height: 10000px;
+    }
+    .content div div {
+        height:100%;/
+    }
+
+
+.btn {
+    width: 90px;
+    padding: 7px 2px;
+}
+
+img {
+    height: 200px;
+    margin: 10px;
+}
+
+.carousel {
+    height: 220px
+}
+
+.carousel-control-prev, .carousel-control-next {
+    margin-top: 90px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.movies-row {
+    background-color: #408EC6;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 25px
+}
+/* .movies-row div{
+            display:inline;
+        }*/
+.mycard {
+    width: 200px;
+    border: 1px solid black;
+}
+
+.slick-prev {
+    background-color: black;
+}
+
+#material-symbols-prev1 {
+    position: absolute;
+    top: 105px;
+    left: 30px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #d7d7d7e3;
+    width: 40px;
+    height: 100px;
+    padding-top: 34px;
+    border: 1px solid #fffbfb;
+    border-radius: 0 8px 8px 0;
+    font-size: 35px;
+    color: blue;
+}
+
+#material-symbols-prev2 {
+    position: absolute;
+    top: 441px;
+    left: 30px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #d7d7d7e3;
+    width: 40px;
+    height: 100px;
+    padding-top: 34px;
+    border: 1px solid #fffbfb;
+    border-radius: 0 8px 8px 0;
+    font-size: 35px;
+    color: blue;
+}
+
+#material-symbols-prev3 {
+    position: absolute;
+    top: 761px;
+    left: 30px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #d7d7d7e3;
+    width: 40px;
+    height: 100px;
+    padding-top: 34px;
+    border: 1px solid #fffbfb;
+    border-radius: 0 8px 8px 0;
+    font-size: 35px;
+    color: blue;
+}
+
+#material-symbols-forward1 {
+    position: absolute;
+    top: 105px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #d7d7d7e3;
+    width: 40px;
+    height: 100px;
+    padding: 30px 0 0 0;
+    border: 1px solid #fffbfb;
+    border-radius: 8px 0 0 8px;
+    font-size: 35px;
+    color: blue;
+}
+
+#material-symbols-forward2 {
+    position: absolute;
+    top: 441px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #d7d7d7e3;
+    width: 40px;
+    height: 100px;
+    padding: 30px 0 0 0;
+    border: 1px solid #fffbfb;
+    border-radius: 8px 0 0 8px;
+    font-size: 35px;
+    color: blue;
+}
+
+#material-symbols-forward3 {
+    position: absolute;
+    top: 761px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #d7d7d7e3;
+    width: 40px;
+    height: 100px;
+    padding: 30px 0 0 0;
+    border: 1px solid #fffbfb;
+    border-radius: 8px 0 0 8px;
+    font-size: 35px;
+    color: blue;
+}
+
+
+
+.responsive div {
+    display: block;
+}
+
+.flex-row {
+    display: flex;
+}
+
+[aria-disabled="true"] {
+    display: none;
+}
+
+
+
+/*Model style here*/
+
+.box {
+    background: #fff;
+    padding: 15px 40px;
+}
+
+    .box h3 {
+        position: relative;
+        font-size: 1.25em;
+        color: #ccc;
+        letter-spacing: 1px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .box #form {
+        position: relative;
+    }
+
+        .box #form #email, .box #form #email1 {
+            width: 400px;
+            outline: none;
+            border: none;
+            border-bottom: 2px solid #333;
+            color: #333;
+            padding: 10px 0;
+            font-weight: 500;
+            font-size: 1.2em;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+    .box .inputBox {
+        position: relative;
+    }
+
+#text {
+    display: block;
+    color: #999;
+    font-weight: 500;
+    padding: 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.75em;
+}
+
+.box #form.invalid .inputBox::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngmart.com%2Fimage%2F277707&psig=AOvVaw0aL_tTWkufWUOq_VQSCbPZ&ust=1665694811830000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJiDnYPL2_oCFQAAAAAdAAAAABAD);
+    background-size: cover;
+}
+
+.box #form.valid .inputBox::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 12PX;
+    width: 24px;
+    height: 24px;
+    background: url(valid.png);
+    background-size: cover;
+}
+
+.square {
+    height: 100px;
+    transition: transform 100s ease-out 100s, border-radius 100s ease-out 100s;
+}
+
+    .square .cover {
+        width: 100%;
+        height: 221px;
+        background-size: cover !important;
+        background-position: center !important;
+        z-index:999;
+    }
+
+    .square .text {
+        background-color:inherit;   
+        text-align:center;  
+        width: 100%;
+        height: fit-content;
+        padding: 5px;
+        box-sizing: border-box;
+        color:white;
+    }
+
+    /*.square:hover {
+        width: 400px;
+        border-radius: 10px;
+        transform: scale(1.5);
+        box-shadow: 0 0 2px #000a;
+    }*/
+    
+      
+
+    .square.one .cover {
+        width:100%;
+        height:100%;
+    }
+
+    
