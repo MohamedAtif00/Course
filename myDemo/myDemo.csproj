@@ -135,8 +135,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="HTMLforBootstrap\arrow_back_FILL0_wght400_GRAD0_opsz48.png" />
-    <Content Include="HTMLforBootstrap\arrow_forward_FILL0_wght400_GRAD0_opsz48.png" />
     <Content Include="HTMLforBootstrap\bootstrap\css\bootstrap-grid.css" />
     <Content Include="HTMLforBootstrap\bootstrap\css\bootstrap-grid.min.css" />
     <Content Include="HTMLforBootstrap\bootstrap\css\bootstrap-grid.rtl.css" />
@@ -174,7 +172,6 @@
     <Content Include="HTMLforBootstrap\slick-carousel\slick.min.css" />
     <Content Include="HTMLforBootstrap\slick-carousel\slick.min.js" />
     <Content Include="HTMLforBootstrap\style.css" />
-    <Content Include="HTMLforBootstrap\WhatsApp Video 2022-10-23 at 15.48.43.mp4" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="libman.json" />

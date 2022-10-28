@@ -8,8 +8,8 @@
     <link href="slick-carousel/slick-theme.min.css" rel="stylesheet" />
     <link href="slick-carousel/slick.min.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b3f6145f5e.js" crossorigin="anonymous"></script>
 
-    
 </head>
 <body>
     <div class="main-container h-100 w-100 ">
@@ -19,14 +19,17 @@
                     <span>Demo</span><span>Website</span>
                 </div>
                 <!-- Button trigger modal -->
-                <div class="d-flex justify-content-between w-25">
+                <div class="d-flex justify-content-between  w-25">
                     <button type="button" class="loginBtn btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         log in
                     </button>
 
-                    <button type="button" class="loginBtn btn btn-danger" data-bs-toggle="modal" data-bs-target="#secondexampleModal">
+                    <button type="button" class="loginBtn btn btn-danger me-lg-5 me-sm-1" data-bs-toggle="modal" data-bs-target="#secondexampleModal">
                         Sign Up
                     </button>
+                    <div class="d-sm-block d-xl-none w-100 h-100">
+                        <i class="fa-solid fa-bars mt-2" style="font-size:40px;cursor:pointer;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></i>
+                    </div>
                 </div>
                 <!-- Modal sign In -->
                 <div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -46,7 +49,7 @@
                                     <h3>Your Email</h3>
                                     <form id="form" action="#">
                                         <div class="inputBox">
-                                            <input type="text" id="email" placeholder="Please Enter Email Address" /> <!--onkeyup="validation()"-->
+                                            <input type="text" id="email" class="email" placeholder="Please Enter Email Address" /> <!--onkeyup="validation()"-->
                                             <span id="text"></span>
                                         </div>
                                     </form>
@@ -55,7 +58,7 @@
                                     <h3>Write Your PassWord</h3>
                                     <form id="form" action="#">
                                         <div class="inputBox">
-                                            <input type="password" id="email1" placeholder="Enter your PassWord" /> <!--onkeyup="validation()"-->
+                                            <input type="password"  class="email" placeholder="Enter your PassWord" /> <!--onkeyup="validation()"-->
                                             <span id="text" class="text-danger"> Wrong PassWord</span>
                                         </div>
                                     </form>
@@ -73,7 +76,7 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Sign In</h1>
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> </button>
                             </div>
                             <div class="modal-body">
@@ -86,7 +89,7 @@
                                     <h3>Your Email</h3>
                                     <form id="form" action="#">
                                         <div class="inputBox">
-                                            <input type="text" id="email" placeholder="Please Enter Email Address" /> <!--onkeyup="validation()"-->
+                                            <input type="text" id="email" class="email" placeholder="Please Enter Email Address" /> <!--onkeyup="validation()"-->
                                             <span id="text"></span>
                                         </div>
                                     </form>
@@ -95,7 +98,7 @@
                                     <h3>Write Your PassWord</h3>
                                     <form id="form" action="#">
                                         <div class="inputBox">
-                                            <input type="password" id="email" placeholder="Enter your PassWord" /> <!--onkeyup="validation()"-->
+                                            <input type="password" class="email" placeholder="Enter your PassWord" /> <!--onkeyup="validation()"-->
                                             <div class="condtionGroup">
                                                 <span id="text" class="condtion1 text-danger"> PassWord should have 12 character</span>
                                                 <span id="text" class="condtion2 text-danger"> PassWord should have at least one different letter</span>
@@ -177,7 +180,19 @@
                     </div>
                 </div>
             </div>
-            <div class="content col-xl-10 col-md-12 col-12 d-flex flex-column position-relative d-flex flex-row">
+            <div class="content col-xl-10 col-md-12  d-flex flex-column position-relative d-flex flex-row">
+
+                <!----------------start offCanva-->
+                <!--<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body bg">
+                        <p>Try scrolling the rest of the page to see this option in action.</p>
+                    </div>
+                </div>-->
+                <!----------------end offCanva-->
 
                 <span id="material-symbols-prev1" class="material-symbols-outlined ">
                     arrow_back
@@ -192,11 +207,6 @@
                             Never Gonna Give You Up!
                         </div>
                     </div>
-                    <!--<div>
-                        <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" />
-                        <span class="d-block w-75 text-center text-light"> gdkfj fdjglkg dfgkdf gjflkd </span>-->
-                        <!--<iframe class="myIframe" width="560" height="315" src="https://www.youtube.com/embed/V30EDfahh5A?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-                    <!--</div>-->
                     <div class="square one">
                         <div class="cover"> <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" /></div>
                         <div class="text text-light">
@@ -233,12 +243,6 @@
                         <div class="text">
                             Never Gonna Give You Up!
                         </div>
-                    </div> 
-                    <div class="square one">
-                        <div class="cover"> <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" /></div>
-                        <div class="text text-light">
-                            Never Gonna Give You Up!
-                        </div>
                     </div>
                     <div class="square one">
                         <div class="cover"> <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" /></div>
@@ -252,42 +256,13 @@
                             Never Gonna Give You Up!
                         </div>
                     </div>
-                    <!--<div>
-                        <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" />
-                        <span class="d-block w-50 text-center text-primary"> hello</span>
+                    <div class="square one">
+                        <div class="cover"> <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" /></div>
+                        <div class="text text-light">
+                            Never Gonna Give You Up!
+                        </div>
                     </div>
-                    <div>
-                        <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" />
-                        <span class="d-block w-50 text-center text-primary"> hello</span>
-                    </div>
-                    <div>
-                        <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" />
-                        <span class="d-block w-50 text-center text-primary"> hello</span>
-                    </div>
-                    <div>
-                        <img src="https://i.egycdn.com/pic/RHNhSUNlY212dmNtWXZ2Y3ZOYkVjeG1qbUVjTmpQeHZj.jpg" />
-                        <span class="d-block w-50 text-center text-primary"> hello</span>
-                    </div>
-                    <div>
-                        <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" />
-                        <span class="d-block w-50 text-center text-primary"> hello</span>
-                    </div>
-                    <div>
-                        <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" />
-                        <span class="d-block w-50 text-center text-primary"> hello</span>
-                    </div>
-                    <div>
-                        <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" />
-                        <span class="d-block w-50 text-center text-primary"> hello</span>
-                    </div>
-                    <div>
-                        <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" />
-                        <span class="d-block w-50 text-center text-primary"> hello</span>
-                    </div>
-                    <div>
-                        <img src="https://i.egycdn.com/pic/WmFwZndlY21FbW9OWWJtdm1lY21qY05FbW12d3h4eA.jpg" />
-                        <span class="d-block w-50 text-center text-primary"> hello</span>
-                    </div>-->
+
                 </div>
                 <span id="material-symbols-forward1" class="material-symbols-outlined">
                     arrow_forward
@@ -430,7 +405,6 @@
                 </span>
 
                 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/V30EDfahh5A?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-
                 <!--<video width="400" controls>
         <source src="https://www.youtube.com/watch?v=-fTqG6hEGm4" type="video/mp4">
         Your browser does not support HTML video.
@@ -440,7 +414,7 @@
     </video>-->
             </div>
 
-            
+
         </div>
 
     </div>
@@ -448,7 +422,7 @@
     <script src="slick-carousel/slick.min.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.js"></script>
     <script src="script.js"></script>
-    
+
 
 </body>
 </html>

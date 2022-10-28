@@ -31,11 +31,12 @@ body {
 }
 
 .header .loginBtn {
-    width: 100px;
+    width: 130px;
     height: 40px;
     padding: 7px;
     margin-right: 20%;
     margin-top: 10px;
+    flex:2;
 }
 
 .modal-content {
@@ -84,9 +85,7 @@ body {
         border: 1px solid black;
         height: 10000px;
     }
-    .content div div {
-        height:100%;/
-    }
+       
 
 
 .btn {
@@ -262,7 +261,7 @@ img {
         position: relative;
     }
 
-        .box #form #email, .box #form #email1 {
+        .box #form .email {
             width: 400px;
             outline: none;
             border: none;
@@ -312,12 +311,12 @@ img {
 }
 
 .square {
-    height: 100px;
     transition: transform 100s ease-out 100s, border-radius 100s ease-out 100s;
+    display:inline
 }
 
     .square .cover {
-        width: 100%;
+        width: 300px;
         height: 221px;
         background-size: cover !important;
         background-position: center !important;
@@ -333,19 +332,10 @@ img {
         box-sizing: border-box;
         color:white;
     }
-
-    /*.square:hover {
-        width: 400px;
-        border-radius: 10px;
-        transform: scale(1.5);
-        box-shadow: 0 0 2px #000a;
-    }*/
     
-      
-
-    .square.one .cover {
+    /*.square.one .cover {
         width:100%;
         height:100%;
-    }
+    }*/
 
     
